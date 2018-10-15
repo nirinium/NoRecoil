@@ -30,32 +30,34 @@ namespace NoRecoil
         public static int _ScreenCenterY { get; } = _ScreenHeight / 2;
         public static int[] LoadIntConfig(string FilePath)
         {
-            StreamReader sr = new StreamReader(FilePath);
-            string buffer = sr.ReadLine();
-            sr.Close();
-            if (buffer == null)
+            using (StreamReader sr = new StreamReader(FilePath))
             {
-                int[] i = { 0 };
-                return i;
-            }
-            else
-            {
-                try
-                {
-                    int[] t;
-                    string[] sL = buffer.Split(':');
-                    List<int> tL = new List<int>();
-                    foreach (String s in sL)
-                    {
-                        tL.Add(Int32.Parse(s));
-                    }
-                    t = tL.ToArray();
-                    return t;
-                }
-                catch
+                string buffer = sr.ReadLine();
+                sr.Close();
+                if (buffer == null)
                 {
                     int[] i = { 0 };
                     return i;
+                }
+                else
+                {
+                    try
+                    {
+                        int[] t;
+                        var sL = buffer.Split(':');
+                        List<int> tL = new List<int>();
+                        foreach (String s in sL)
+                        {
+                            tL.Add(Int32.Parse(s));
+                        }
+                        t = tL.ToArray();
+                        return t;
+                    }
+                    catch (Exception ex)
+                    {
+                        int[] i = { 0 };
+                        return i;
+                    }
                 }
             }
         }

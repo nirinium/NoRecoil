@@ -55,34 +55,37 @@
             // lblStep
             // 
             this.lblStep.AutoSize = true;
-            this.lblStep.Location = new System.Drawing.Point(40, 12);
+            this.lblStep.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStep.Location = new System.Drawing.Point(40, 14);
             this.lblStep.Name = "lblStep";
-            this.lblStep.Size = new System.Drawing.Size(77, 15);
+            this.lblStep.Size = new System.Drawing.Size(66, 17);
             this.lblStep.TabIndex = 0;
             this.lblStep.Text = "Step[100]:";
             // 
             // lblDelay
             // 
             this.lblDelay.AutoSize = true;
-            this.lblDelay.Location = new System.Drawing.Point(33, 63);
+            this.lblDelay.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDelay.Location = new System.Drawing.Point(33, 71);
             this.lblDelay.Name = "lblDelay";
-            this.lblDelay.Size = new System.Drawing.Size(84, 15);
+            this.lblDelay.Size = new System.Drawing.Size(72, 17);
             this.lblDelay.TabIndex = 1;
             this.lblDelay.Text = "Delay[100]:";
             // 
             // lblIncrease
             // 
             this.lblIncrease.AutoSize = true;
-            this.lblIncrease.Location = new System.Drawing.Point(12, 114);
+            this.lblIncrease.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIncrease.Location = new System.Drawing.Point(12, 129);
             this.lblIncrease.Name = "lblIncrease";
-            this.lblIncrease.Size = new System.Drawing.Size(105, 15);
+            this.lblIncrease.Size = new System.Drawing.Size(88, 17);
             this.lblIncrease.TabIndex = 2;
             this.lblIncrease.Text = "Increase[100]:";
             this.lblIncrease.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // tbStep
             // 
-            this.tbStep.Location = new System.Drawing.Point(123, 12);
+            this.tbStep.Location = new System.Drawing.Point(123, 14);
             this.tbStep.Maximum = 20;
             this.tbStep.Minimum = 1;
             this.tbStep.Name = "tbStep";
@@ -93,7 +96,7 @@
             // 
             // tbDelay
             // 
-            this.tbDelay.Location = new System.Drawing.Point(123, 63);
+            this.tbDelay.Location = new System.Drawing.Point(123, 71);
             this.tbDelay.Maximum = 500;
             this.tbDelay.Minimum = 1;
             this.tbDelay.Name = "tbDelay";
@@ -104,7 +107,7 @@
             // 
             // tbIncrease
             // 
-            this.tbIncrease.Location = new System.Drawing.Point(123, 114);
+            this.tbIncrease.Location = new System.Drawing.Point(123, 129);
             this.tbIncrease.Name = "tbIncrease";
             this.tbIncrease.Size = new System.Drawing.Size(197, 45);
             this.tbIncrease.TabIndex = 3;
@@ -113,26 +116,27 @@
             // lblState
             // 
             this.lblState.AutoSize = true;
-            this.lblState.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblState.Location = new System.Drawing.Point(12, 279);
+            this.lblState.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblState.Location = new System.Drawing.Point(12, 316);
             this.lblState.Name = "lblState";
-            this.lblState.Size = new System.Drawing.Size(49, 15);
+            this.lblState.Size = new System.Drawing.Size(43, 17);
             this.lblState.TabIndex = 4;
             this.lblState.Text = "label1";
             // 
             // lblMax
             // 
             this.lblMax.AutoSize = true;
-            this.lblMax.Location = new System.Drawing.Point(12, 165);
+            this.lblMax.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMax.Location = new System.Drawing.Point(12, 187);
             this.lblMax.Name = "lblMax";
-            this.lblMax.Size = new System.Drawing.Size(105, 15);
+            this.lblMax.Size = new System.Drawing.Size(88, 17);
             this.lblMax.TabIndex = 2;
             this.lblMax.Text = "Max Inc.[100]:";
             this.lblMax.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // tbMax
             // 
-            this.tbMax.Location = new System.Drawing.Point(123, 165);
+            this.tbMax.Location = new System.Drawing.Point(123, 187);
             this.tbMax.Maximum = 30;
             this.tbMax.Name = "tbMax";
             this.tbMax.Size = new System.Drawing.Size(197, 45);
@@ -142,16 +146,17 @@
             // cbConfigs
             // 
             this.cbConfigs.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbConfigs.Location = new System.Drawing.Point(12, 216);
+            this.cbConfigs.Location = new System.Drawing.Point(12, 245);
             this.cbConfigs.Name = "cbConfigs";
-            this.cbConfigs.Size = new System.Drawing.Size(146, 23);
+            this.cbConfigs.Size = new System.Drawing.Size(146, 25);
             this.cbConfigs.TabIndex = 5;
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(245, 216);
+            this.btnLoad.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoad.Location = new System.Drawing.Point(245, 245);
             this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(75, 23);
+            this.btnLoad.Size = new System.Drawing.Size(75, 26);
             this.btnLoad.TabIndex = 6;
             this.btnLoad.Text = "Load";
             this.btnLoad.UseVisualStyleBackColor = true;
@@ -159,9 +164,10 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(164, 216);
+            this.btnSave.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Location = new System.Drawing.Point(164, 245);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.Size = new System.Drawing.Size(75, 26);
             this.btnSave.TabIndex = 7;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -169,9 +175,10 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(245, 245);
+            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Location = new System.Drawing.Point(245, 278);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.Size = new System.Drawing.Size(75, 26);
             this.btnDelete.TabIndex = 8;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -179,9 +186,10 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(164, 245);
+            this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.Location = new System.Drawing.Point(164, 278);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.Size = new System.Drawing.Size(75, 26);
             this.btnAdd.TabIndex = 9;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -189,18 +197,18 @@
             // 
             // txtCFG
             // 
-            this.txtCFG.Location = new System.Drawing.Point(12, 245);
+            this.txtCFG.Location = new System.Drawing.Point(12, 278);
             this.txtCFG.Name = "txtCFG";
-            this.txtCFG.Size = new System.Drawing.Size(146, 23);
+            this.txtCFG.Size = new System.Drawing.Size(146, 25);
             this.txtCFG.TabIndex = 10;
             // 
             // pbRefresh
             // 
             this.pbRefresh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbRefresh.Image = global::NoRecoil.Properties.Resources.icon_refresh_128;
-            this.pbRefresh.Location = new System.Drawing.Point(148, 274);
+            this.pbRefresh.Location = new System.Drawing.Point(148, 311);
             this.pbRefresh.Name = "pbRefresh";
-            this.pbRefresh.Size = new System.Drawing.Size(30, 30);
+            this.pbRefresh.Size = new System.Drawing.Size(30, 34);
             this.pbRefresh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbRefresh.TabIndex = 12;
             this.pbRefresh.TabStop = false;
@@ -209,9 +217,10 @@
             // cbChroma
             // 
             this.cbChroma.AutoSize = true;
-            this.cbChroma.Location = new System.Drawing.Point(210, 278);
+            this.cbChroma.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbChroma.Location = new System.Drawing.Point(210, 315);
             this.cbChroma.Name = "cbChroma";
-            this.cbChroma.Size = new System.Drawing.Size(110, 19);
+            this.cbChroma.Size = new System.Drawing.Size(110, 21);
             this.cbChroma.TabIndex = 13;
             this.cbChroma.Text = "Razer Chroma";
             this.cbChroma.UseVisualStyleBackColor = true;
@@ -219,9 +228,9 @@
             // 
             // gui
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(332, 303);
+            this.ClientSize = new System.Drawing.Size(332, 343);
             this.Controls.Add(this.cbChroma);
             this.Controls.Add(this.pbRefresh);
             this.Controls.Add(this.txtCFG);
@@ -239,7 +248,7 @@
             this.Controls.Add(this.lblIncrease);
             this.Controls.Add(this.lblDelay);
             this.Controls.Add(this.lblStep);
-            this.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "gui";
             this.ShowIcon = false;
